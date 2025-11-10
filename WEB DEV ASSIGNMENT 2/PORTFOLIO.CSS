@@ -1,0 +1,163 @@
+/* =============================
+   Riddhima Rai Portfolio Stylesheet
+   ============================= */
+
+/* Global Styles */
+* {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f9fc;
+  color: #222;
+}
+
+/* Header */
+header {
+  background-color: #0047ab;
+  color: antiquewhite;
+  word-spacing: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 3px solid #003580;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding-top: 140px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #0047ab;
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 3px solid #0047ab;
+}
+
+/* Table */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+  max-width: 600px;
+  background: white;
+  border: 2px solid #0047ab;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #0047ab;
+}
+
+th {
+  background-color: #0047ab;
+  color: white;
+}
+
+/* Projects */
+.project {
+  border: 1px solid #ccc;
+  background-color: #fdfdfd;
+  margin: 20px auto;
+  width: 70%;
+  padding: 25px;
+  border-radius: 10px;
+  background-image: url('youuuu.jpg');
+  background-size: cover;
+  background-blend-mode: lighten;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+  color: #003580;
+}
+
+/* Buttons */
+button {
+  background-color: #0047ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003580;
+}
+
+/* Footer */
+footer {
+  background-color: #0047ab;
+  color: white;
+  padding: 30px 0;
+}
+
+footer table {
+  border: none;
+  background: transparent;
+}
+
+footer td {
+  padding: 8px;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#back-to-top {
+  margin-top: 15px;
+  background-color: #ffd700;
+  color: #0047ab;
+}
+
+#back-to-top:hover {
+  background-color: #ffcc00;
+}
+
+/* Special Backgrounds */
+#hu {
+  background-image: url('robotics_bg.jpeg');
+  color: whitesmoke;
+}
